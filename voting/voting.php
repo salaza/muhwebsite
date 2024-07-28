@@ -49,7 +49,7 @@
 <body>
     <main class="container">
         <div class="home-link">
-            <a href="../site.html">Home</a>
+            <a href="../index.html">Home</a>
         </div>
         <div class="center-text">
             <h1>Vote on Suggestions</h1>
