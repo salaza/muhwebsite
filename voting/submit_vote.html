@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../xd.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Submit a Vote</title>
+    <style>
+        .center-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            width: 50%;
+        }
+        .home-link {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="home-link">
+            <a href="../site.html">Home</a>
+        </div>
+        <div class="center-text">
+            <h1>Submit a Voting Suggestion</h1>
+            <form action="submit_vote.php" method="POST" class="form-container">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="suggestion">Your Suggestion:</label>
+                <input type="text" id="suggestion" name="suggestion" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
